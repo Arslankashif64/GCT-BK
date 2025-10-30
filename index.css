@@ -1,0 +1,63 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 30%, 96%);
+    color:#333;
+}
+header{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.profile{
+    display: flex;
+    padding: 100px; 
+    background-color:white;
+    align-items: center;
+    gap: 100px;
+}
+.profile-pic{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:3px solid dodgerblue;
+}
+.about{
+    max-width: 600px;
+}
+.education{
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  background-color: white;
+  margin: 0px;
+}
+.skills-project{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.skills li, .projects li {
+  background-color: #e0e0e0;
+  margin: 5px ;
+  padding: 8px;
+  border-radius: 5px;
+}
+.contact{
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+footer {
+  background-color:dark gray ;
+  color: white;
+  text-align: center;
+  padding: 15px ;
+}
